@@ -1,0 +1,111 @@
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+.form>p{
+  margin-top: 30px;
+   margin: auto;
+    font-weight: 600;
+    color: rgb(0, 119, 255);
+}
+
+.formhead_design{
+    height: 10px;
+    background-color: rgb(0, 119, 255);
+    box-shadow: -1px 0px 5px 1px rgb(100, 100, 100);
+}
+.input__contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.input__contain>span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-weight: bold;
+}
+
+.input__contain>input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    background-color: rgb(221, 221, 220);
+}
+
+
+
+.input__contain>p{
+    color: #cc1c3f;
+    font-weight: bold;
+    font: 14px;
+    align-self: flex-start;
+}
+
+.input__Filecontain,.picturecont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.picturecont{
+    background-color: rgb(221, 221, 220);
+    padding: 20px 50px;
+    border-radius: 15px;
+}
+
+.pictureIcon{
+    font-size: 35px;
+}
+
+.inputFile{
+    display: none;
+}
+
+.input__Filecontain>p{
+    color: #cc1c3f;
+    font-weight: bold;
+    font: 14px;
+}
+
+.showHide{
+    display: none;
+}
+
+.notAll{
+    color: #cc1c3f;
+}
+
+.buttonCont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+   padding: 5px 15px;
+   border: none;
+   font-size: 18px;
+   background-color: rgb(0, 119, 255);
+   color: white;
+   border-radius:8px;
+   letter-spacing: 1px;
+}
+
+input::placeholder{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.inputBorder{
+    border-bottom: 1px solid #cc1c3f;
+}
+

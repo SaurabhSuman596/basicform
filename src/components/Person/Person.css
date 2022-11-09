@@ -1,0 +1,23 @@
+.person{
+    margin-top: 20px;
+}
+
+.peopleCont{
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.peopleCont>P{
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.peopleCont>img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
